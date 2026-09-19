@@ -1,0 +1,34 @@
+{
+  "id": "onyxs-music-playlists",
+  "title": "Onyx's Music Playlists",
+  "version": "1.0.0",
+  "description": "<p>A module for DND 5e containing personal music playlists.</p>",
+  "download": "https://github.com/Nebelturm/Onyx-Music-Playlists/releases/download/1.0.0/module.zip",
+  "manifest": "https://github.com/Nebelturm/Onyx-Music-Playlists/releases/latest/download/module.json",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Nebelturm",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "Music",
+      "label": "Music",
+      "path": "packs/Music",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": ""
+}
